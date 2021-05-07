@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <Head>
+    <title>BitCalc - Calculadora de trade BTC</title>
+    <script src="BitCalc.js"></script>
+  </Head>
+  <body>
+    <form class="ValueData">
+      <label for="BRL">Valor aplicado:</label>
+      <input type="text" id="BRL" name="ValorBRL" placeholder="Valor aplicado em BRL">
+      <br>
+      <label for="BTCPrice">Preço do Bitcoin</label>
+      <input type="text" id="BTCPrice" name="BTCPrice" placeholder="Preço do BTC">
+      <br>
+      <label for="Profit">Lucro (%)</label>
+      <input type="text" id="Profit" name="Profit" placeholder="Lucro %">
+      <br>
+      <input type="submit" value="Calcular" onclick="CalcProfit()">
+    </form>
+  </body>
+</html>
