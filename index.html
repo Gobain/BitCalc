@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+  <title>BitCalc - Calculadora de trade BTC</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="BitCalc.js"></script>
+</Head>
+
+<body>
+  <h1>BitCalc</h1>
+  <div id="calc">
+    <h2>Venda de BTC na Walltime</h2>
+    <form class="ValueData" onsubmit="return false">
+      <label for="BRL">Valor aplicado:</label>
+      <input type="text" id="BRL" name="ValorBRL" placeholder="Valor aplicado em BRL">
+      <br>
+      <!--<label for="WalltBTC">BTC na Wall (BRL):</label>
+      <input type="text" id="WallBTC" name="WallBTC" placeholder="BTC na Wall" disabled>-->
+      <label for="BitBTC">BTC na Bitpreço:</label>
+      <input type="text" id="BitBTC" name="BitBTC" placeholder="BTC na BitPreço">
+      <br>
+      <label for="Profit">Lucro (%):</label>
+      <input type="text" id="Profit" name="Profit" placeholder="Lucro %">
+      <br>
+      <button id="Calcular" onclick="start()">Calcular</button>
+    </form>
+    <p id=QuantBTC></p>
+    <p id=BTCPrice></p>
+  </div>
+  <footer>Made with ❤ by <a href="https://github.com/Gobain">Gobain</a></footer>
+</body>
+
+</html>
