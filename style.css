@@ -55,6 +55,21 @@ input{
   color: #e6e6e6;
 }
 
+#Reload{
+  padding: 0%;
+  height: 3rem;
+  width: 7%;
+  border-radius: 25px;
+  border: none;
+  background-color: #ff0082;
+}
+
+#RefreshIcon{
+  padding: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
 #QuantBTC{
   font-size: 2rem;
 }
